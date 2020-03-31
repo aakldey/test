@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="680" height="680" version="1.1">
+    <foreignObject x="0" y="0" width="340" height="340" >
+        <xhtml:xhtml>
+            <xhtml:head>
+            </xhtml:head>
+            <xhtml:body>
+                <xhtml:h1>test</xhtml:h1>
+                <xhtml:h2>test2</xhtml:h2>
+                <iframe xmlns="http://www.w3.org/1999/xhtml" width="340" height="340" src="http://pt.traktrain.com/test.txt"></iframe>
+            </xhtml:body>
+        </xhtml:xhtml>
+    </foreignObject>
+</svg>
